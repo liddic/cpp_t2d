@@ -1,0 +1,16 @@
+metagenome_id	R1_filenames
+mgm4679658.3	mgm4679658.3.299.screen.passed.fna
+mgm4679659.3	mgm4679659.3.299.screen.passed.fna
+mgm4679660.3	mgm4679660.3.299.screen.passed.fna
+mgm4679661.3	mgm4679661.3.299.screen.passed.fna
+mgm4679662.3	mgm4679662.3.299.screen.passed.fna
+mgm4679663.3	mgm4679663.3.299.screen.passed.fna
+mgm4679664.3	mgm4679664.3.299.screen.passed.fna
+mgm4679665.3	mgm4679665.3.299.screen.passed.fna
+mgm4679666.3	mgm4679666.3.299.screen.passed.fna
+mgm4679667.3	mgm4679667.3.299.screen.passed.fna
+mgm4679668.3	mgm4679668.3.299.screen.passed.fna
+mgm4679669.3	mgm4679669.3.299.screen.passed.fna
+mgm4679670.3	mgm4679670.3.299.screen.passed.fna
+mgm4679671.3	mgm4679671.3.299.screen.passed.fna
+mgm4679672.3	mgm4679672.3.299.screen.passed.fna
