@@ -35,7 +35,9 @@ job_directory = "%s/job_files" % os.getcwd()
 mkdir_p(job_directory)
 
 ## read in manifest of sampleID and corresponding raw fastq R1/R2 files
-table = pd.read_csv('/scratch/pawsey1216/cliddicoat/ami_2025/1_meta_raw/combined_reads_ami_2025.tsv.txt', sep='\t')
+# iterate through these with alternative filename patterns *_R1.fastq.gz, then *_R1_001.fastq.gz
+#table = pd.read_csv('/scratch/pawsey1216/cliddicoat/ami_2025/1_meta_raw/combined_reads_dist_vs_nat.tsv.txt', sep='\t')
+table = pd.read_csv('/scratch/pawsey1216/cliddicoat/ami_2025/1_meta_raw/combined_reads_001_dist_vs_nat.tsv.txt', sep='\t')
 
 # extract info from pandas data table
 r1_files = table["R1_filenames"]
