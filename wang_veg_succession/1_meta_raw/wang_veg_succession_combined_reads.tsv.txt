@@ -1,0 +1,16 @@
+sample	R1_filenames	R2_filenames
+SRR28123688	SRR28123688_pass_1.fastq.gz	SRR28123688_pass_2.fastq.gz
+SRR28123689	SRR28123689_pass_1.fastq.gz	SRR28123689_pass_2.fastq.gz
+SRR28123690	SRR28123690_pass_1.fastq.gz	SRR28123690_pass_2.fastq.gz
+SRR28123691	SRR28123691_pass_1.fastq.gz	SRR28123691_pass_2.fastq.gz
+SRR28123692	SRR28123692_pass_1.fastq.gz	SRR28123692_pass_2.fastq.gz
+SRR28123693	SRR28123693_pass_1.fastq.gz	SRR28123693_pass_2.fastq.gz
+SRR28123694	SRR28123694_pass_1.fastq.gz	SRR28123694_pass_2.fastq.gz
+SRR28123695	SRR28123695_pass_1.fastq.gz	SRR28123695_pass_2.fastq.gz
+SRR28123696	SRR28123696_pass_1.fastq.gz	SRR28123696_pass_2.fastq.gz
+SRR28123697	SRR28123697_pass_1.fastq.gz	SRR28123697_pass_2.fastq.gz
+SRR28123698	SRR28123698_pass_1.fastq.gz	SRR28123698_pass_2.fastq.gz
+SRR28123699	SRR28123699_pass_1.fastq.gz	SRR28123699_pass_2.fastq.gz
+SRR28123700	SRR28123700_pass_1.fastq.gz	SRR28123700_pass_2.fastq.gz
+SRR28123701	SRR28123701_pass_1.fastq.gz	SRR28123701_pass_2.fastq.gz
+SRR28123702	SRR28123702_pass_1.fastq.gz	SRR28123702_pass_2.fastq.gz
