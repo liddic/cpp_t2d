@@ -11,7 +11,7 @@ module load r/4.4.1
 #export R_LIBS_USER=/software/projects/<project-id>/<user-name>/setonix/<DATE-TAG>/r/%v
 #export R_LIBS_USER=/software/projects/pawsey1216/cliddicoat/setonix/2024.05/r/4.4.1
 
-cd /scratch/pawsey1216/cliddicoat/ft2d_chn/5_rcode_cpp
+cd /scratch/pawsey1216/cliddicoat/ft2d_chn/cpp_analysis
 
 # Execute the R script
 
