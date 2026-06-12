@@ -26,12 +26,12 @@ library(phyloseq); packageVersion("phyloseq") # '1.44.0'
 
 message("\n# establish folders and input files")
 
-message("\nworkdir <- '/scratch/pawsey1216/cliddicoat/ft2d_swe/5_rcode_cpp'")
-workdir <- "/scratch/pawsey1216/cliddicoat/ft2d_swe/5_rcode_cpp"
+message("\nworkdir <- '/scratch/pawsey1216/cliddicoat/ft2d_swe/cpp_analysis'")
+workdir <- "/scratch/pawsey1216/cliddicoat/ft2d_swe/cpp_analysis"
 message("\nsetwd(workdir)")
 setwd(workdir)
-message("\ntemp_dir <- '/scratch/pawsey1216/cliddicoat/ft2d_swe/5_rcode_cpp/working'")
-temp_dir <- "/scratch/pawsey1216/cliddicoat/ft2d_swe/5_rcode_cpp/working"
+message("\ntemp_dir <- '/scratch/pawsey1216/cliddicoat/ft2d_swe/cpp_analysis/working'")
+temp_dir <- "/scratch/pawsey1216/cliddicoat/ft2d_swe/cpp_analysis/working"
 
 message("\nthis_study <- '-forslund-t2d-swe-hostremoval-pawsey'")
 this_study <- "-forslund-t2d-swe-hostremoval-pawsey"
