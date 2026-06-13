@@ -1,0 +1,141 @@
+
+##### Study datasets #####
+
+├── ami_2025
+│   ├── 1_meta_raw
+│   ├── 1_qc
+│   ├── 2_clean_fastp
+│   ├── 2_clean_fastp_cat
+│   ├── 3_fxn_superfocus
+│   ├── 3_fxn_superfocus_copy
+│   ├── 4_read_counts
+│   └── cpp_analysis
+
+├── ft2d_chn
+│   ├── 1_meta_raw
+│   ├── 2b_clean_hostremoval
+│   ├── 2_clean_fastp
+│   ├── 2c_rarefy_even_seq_10th
+│   ├── 2c_rarefy_even_seq_15th
+│   ├── 2c_rarefy_even_seq_20th
+│   ├── 2c_rarefy_even_seq_5th
+│   ├── 2c_rarefy_even_seq_min
+│   ├── 3_fxn_superfocus
+│   ├── 3_fxn_superfocus_10th
+│   ├── 3_fxn_superfocus_15th
+│   ├── 3_fxn_superfocus_20th
+│   ├── 3_fxn_superfocus_5th
+│   ├── 3_fxn_superfocus_copy_hostremoval
+│   ├── 3_fxn_superfocus_copy_hostremoval_10th
+│   ├── 3_fxn_superfocus_copy_hostremoval_15th
+│   ├── 3_fxn_superfocus_copy_hostremoval_20th
+│   ├── 3_fxn_superfocus_copy_hostremoval_5th
+│   ├── 3_fxn_superfocus_copy_hostremoval_min
+│   ├── 3_fxn_superfocus_min
+│   ├── 4_compare_read_counts
+│   ├── cpp_analysis
+│   ├── cpp_analysis_10th
+│   ├── cpp_analysis_15th
+│   ├── cpp_analysis_20th
+│   ├── cpp_analysis_5th
+│   └── cpp_analysis_min
+
+├── ft2d_swe
+│   ├── 1_meta_raw
+│   ├── 2b_clean_hostremoval
+│   ├── 2_clean_fastp
+│   ├── 2c_rarefy_even_seq_10th
+│   ├── 2c_rarefy_even_seq_15th
+│   ├── 2c_rarefy_even_seq_20th
+│   ├── 2c_rarefy_even_seq_5th
+│   ├── 2c_rarefy_even_seq_min
+│   ├── 3_fxn_superfocus
+│   ├── 3_fxn_superfocus_10th
+│   ├── 3_fxn_superfocus_15th
+│   ├── 3_fxn_superfocus_20th
+│   ├── 3_fxn_superfocus_5th
+│   ├── 3_fxn_superfocus_copy_hostremoval
+│   ├── 3_fxn_superfocus_copy_hostremoval_10th
+│   ├── 3_fxn_superfocus_copy_hostremoval_15th
+│   ├── 3_fxn_superfocus_copy_hostremoval_20th
+│   ├── 3_fxn_superfocus_copy_hostremoval_5th
+│   ├── 3_fxn_superfocus_copy_hostremoval_min
+│   ├── 3_fxn_superfocus_min
+│   ├── 4_compare_read_counts
+│   ├── cpp_analysis
+│   ├── cpp_analysis_10th
+│   ├── cpp_analysis_15th
+│   ├── cpp_analysis_20th
+│   ├── cpp_analysis_5th
+│   └── cpp_analysis_min
+
+├── mason_prairie
+│   ├── 1_meta_raw
+│   ├── 1_qc
+│   ├── 2_clean_fastp
+│   ├── 3_fxn_superfocus
+│   ├── 3_fxn_superfocus_copy
+│   ├── 4_read_counts
+│   └── cpp_analysis
+
+├── ref_genome
+
+├── sunbad_resto
+│   ├── 2_clean_mgrast
+│   ├── 3_fxn_superfocus
+│   ├── 3_fxn_superfocus_copy
+│   ├── 4_read_counts
+│   ├── cleaned
+│   └── cpp_analysis
+
+├── wang_veg_succession
+│   ├── 1_meta_raw
+│   ├── 1_qc
+│   ├── 2_clean_fastp
+│   ├── 3_fxn_superfocus
+│   ├── 3_fxn_superfocus_copy
+│   ├── 4_read_counts
+│   └── cpp_analysis
+
+└── zuo_succession
+    ├── 1_meta_raw
+    ├── 1_qc
+    ├── 2_clean_fastp
+    ├── 3_fxn_superfocus
+    ├── 3_fxn_superfocus_copy
+    ├── 4_read_counts
+    └── cpp_analysis
+
+
+
+##### Supplementary datasets #####
+
+├── chuckran_soil_glucose
+│   ├── 1_meta_raw
+│   ├── 1_qc
+│   ├── 2_clean_fastp
+│   ├── 3_fxn_superfocus
+│   ├── 3_fxn_superfocus_copy
+│   └── cpp_analysis
+
+├── Liu_2020_mice_soil_PRJNA542998
+│   ├── 1_meta_raw
+│   ├── 1_qc
+│   ├── 2b_clean_hostremoval
+│   ├── 2_clean_fastp
+│   ├── 3_fxn_superfocus
+│   ├── 3_fxn_superfocus_copy_hostremoval
+│   ├── 4_compare_read_counts
+│   └── cpp_analysis
+
+├── PRJNA622674_NIBSC_WGS_cultures
+│   ├── 1_meta_raw
+│   ├── 1_qc
+│   ├── 2_clean_fastp
+│   ├── 3_fxn_superfocus
+│   ├── 3_fxn_superfocus_copy
+│   └── cpp_analysis
+
+├── ref_genome_MOUSE
+
+
