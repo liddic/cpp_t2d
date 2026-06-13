@@ -1,0 +1,30 @@
+label	OC_x	HC_y	hjust	vjust	z_layer
+"'Lipid'"	0.01	2.32	0	0	N:C = 0
+
+"'Lipid'"	0.01	2.32	0	0	N:C >0 to 0.2
+
+"'Carbohydrate'"	0.71	2.42	0	0	N:C = 0
+
+"'Condensed\naromatic'"	0.01	0.38	0	1	N:C = 0
+
+"'Condensed\naromatic'"	0.01	0.38	0	1	N:C >0 to 0.2
+
+"'Condensed\naromatic'"	0.01	0.38	0	1	N:C >0.2 to 2
+
+"'Condensed\naromatic'"	0.01	0.38	0	1	N:C >0.2 to 1
+
+"'Amino\nsugar'"	0.62	2.08	0	1	N:C >0 to 0.2
+
+"'Other phytochemical\n/ oxy-aromatic'"	0.26	0.52	0	0	N:C = 0
+
+"'Other phytochemical\n/ oxy-aromatic'"	0.26	0.52	0	0	N:C >0 to 0.2
+
+"'Other phytochemical\n/ oxy-aromatic'"	0.26	0.52	0	0	N:C >0.2 to 2
+
+"'Other phytochemical\n/ oxy-aromatic'"	0.26	0.52	0	0	N:C >0.2 to 1
+
+"'Protein'"	0.13	2.22	0	0	N:C >0 to 0.2
+
+"'Protein'"	0.13	2.22	0	0	N:C >0.2 to 2
+
+"'Protein'"	0.13	2.22	0	0	N:C >0.2 to 1

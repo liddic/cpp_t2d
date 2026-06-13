@@ -1,0 +1,61 @@
+label	OC_x	HC_y	vertex	z_layer
+Lipid	0.00	1.32	bottom-left	N:C = 0
+Lipid	0.00	2.30	top-left	N:C = 0
+Lipid	0.60	2.30	top-right	N:C = 0
+Lipid	0.60	1.32	bottom-right	N:C = 0
+Lipid	0.00	1.32	bottom-left	N:C >0 to 0.2
+Lipid	0.00	2.30	top-left	N:C >0 to 0.2
+Lipid	0.60	2.30	top-right	N:C >0 to 0.2
+Lipid	0.60	1.32	bottom-right	N:C >0 to 0.2
+Carbohydrate	0.70	1.50	bottom-left	N:C = 0
+Carbohydrate	0.70	2.40	top-left	N:C = 0
+Carbohydrate	1.25	2.40	top-right	N:C = 0
+Carbohydrate	1.25	1.50	bottom-right	N:C = 0
+Condensed aromatics	0.00	0.50	bottom-left	N:C = 0
+Condensed aromatics	0.00	1.32	top-left	N:C = 0
+Condensed aromatics	0.25	1.32	top-right	N:C = 0
+Condensed aromatics	0.25	0.50	bottom-right	N:C = 0
+Condensed aromatics	0.00	0.50	bottom-left	N:C >0 to 0.2
+Condensed aromatics	0.00	1.32	top-left	N:C >0 to 0.2
+Condensed aromatics	0.25	1.32	top-right	N:C >0 to 0.2
+Condensed aromatics	0.25	0.50	bottom-right	N:C >0 to 0.2
+Condensed aromatics	0.00	0.50	bottom-left	N:C >0.2 to 2
+Condensed aromatics	0.00	1.32	top-left	N:C >0.2 to 2
+Condensed aromatics	0.25	1.32	top-right	N:C >0.2 to 2
+Condensed aromatics	0.25	0.50	bottom-right	N:C >0.2 to 2
+Condensed aromatics	0.00	0.50	bottom-left	N:C >0.2 to 1
+Condensed aromatics	0.00	1.32	top-left	N:C >0.2 to 1
+Condensed aromatics	0.25	1.32	top-right	N:C >0.2 to 1
+Condensed aromatics	0.25	0.50	bottom-right	N:C >0.2 to 1
+Amino sugar	0.60	1.45	bottom-left	N:C >0 to 0.2
+Amino sugar	0.60	2.20	top-left	N:C >0 to 0.2
+Amino sugar	1.05	2.20	top-right	N:C >0 to 0.2
+Amino sugar	1.05	1.45	bottom-right	N:C >0 to 0.2
+Other phytochemicals & oxy-aromatics	0.25	0.50	bottom-left	N:C = 0
+Other phytochemicals & oxy-aromatics	0.25	1.32	top-left	N:C = 0
+Other phytochemicals & oxy-aromatics	1.05	1.32	top-right	N:C = 0
+Other phytochemicals & oxy-aromatics	1.05	0.50	bottom-right	N:C = 0
+Other phytochemicals & oxy-aromatics	0.25	0.50	bottom-left	N:C >0 to 0.2
+Other phytochemicals & oxy-aromatics	0.25	1.32	top-left	N:C >0 to 0.2
+Other phytochemicals & oxy-aromatics	1.05	1.32	top-right	N:C >0 to 0.2
+Other phytochemicals & oxy-aromatics	1.05	0.50	bottom-right	N:C >0 to 0.2
+Other phytochemicals & oxy-aromatics	0.25	0.50	bottom-left	N:C >0.2 to 2
+Other phytochemicals & oxy-aromatics	0.25	1.32	top-left	N:C >0.2 to 2
+Other phytochemicals & oxy-aromatics	1.05	1.32	top-right	N:C >0.2 to 2
+Other phytochemicals & oxy-aromatics	1.05	0.50	bottom-right	N:C >0.2 to 2
+Other phytochemicals & oxy-aromatics	0.25	0.50	bottom-left	N:C >0.2 to 1
+Other phytochemicals & oxy-aromatics	0.25	1.32	top-left	N:C >0.2 to 1
+Other phytochemicals & oxy-aromatics	1.05	1.32	top-right	N:C >0.2 to 1
+Other phytochemicals & oxy-aromatics	1.05	0.50	bottom-right	N:C >0.2 to 1
+Protein	0.12	1.32	bottom-left	N:C >0 to 0.2
+Protein	0.12	2.20	top-left	N:C >0 to 0.2
+Protein	0.60	2.20	top-right	N:C >0 to 0.2
+Protein	0.60	1.32	bottom-right	N:C >0 to 0.2
+Protein	0.12	1.32	bottom-left	N:C >0.2 to 2
+Protein	0.12	2.20	top-left	N:C >0.2 to 2
+Protein	1.05	2.20	top-right	N:C >0.2 to 2
+Protein	1.05	1.32	bottom-right	N:C >0.2 to 2
+Protein	0.12	1.32	bottom-left	N:C >0.2 to 1
+Protein	0.12	2.20	top-left	N:C >0.2 to 1
+Protein	1.05	2.20	top-right	N:C >0.2 to 1
+Protein	1.05	1.32	bottom-right	N:C >0.2 to 1
