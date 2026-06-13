@@ -3,7 +3,7 @@ Examining shared trends in compound-associated functional capacities of degraded
 
 ## About this repository
 
-**Contains code for the article:**
+**Contains code and data tables for the article:**
 
 *Shared potential metabolism trends in degraded soils and type 2 diabetes gut microbiomes*
 
@@ -12,6 +12,8 @@ by Craig Liddicoat, Bart A. Eijkelkamp, Timothy R. Cavagnaro, Jake M. Robinson, 
 Preprint server [to be updated]: [BIORXIV/2025/642605](https://doi.org/10.1101/2025.03.11.642605)
 
 This repository documents code used in the above study, and is not intended for ongoing code development. Sub-folders contain scripts for bioinformatic processing and analysis of the case study datasets described below.
+
+Data tables are available documenting the results of [CPP trend analyses](CPP_trend_analysis_results).
 
 ## Data sources
 Datasets comprise soil metagenomes from five ecosystem quality gradients, and gut metagenomes from two cohorts of untreated T2D versus normal healthy subjects
