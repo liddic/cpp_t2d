@@ -1,9 +1,6 @@
 # cpp_t2d
 Examining shared trends in compound-associated functional capacities of degraded ecosystem soil microbiomes and type 2 diabetes gut microbiomes
 
-
-**! SITE UNDER CONSTRUCTION !**
-
 ## About this repository
 
 **Contains code for the article:**
@@ -59,7 +56,7 @@ _**Figure 2.** Example CPP analyses from soil microbiomes under post-mining fore
 
 **Bioinformatic steps**
 
-Metagenomics data were processed in several steps: (i) raw sequences were accessed/downloaded, (ii) QA/QC: sequences were inspected using FastQC and trimmed using Fastp, (iii) human genome sequences (GRCh38.p14/hg38) were removed from human gut datasets (in supplementary data, mouse genome sequences GRCm39 were removed from mouse gut datasets), (iv) functional profiles were derived using [SUPER-FOCUS](https://github.com/metageni/SUPER-FOCUS), then (v) functional relative abundances were converted to CPP values. Metagenomic data processing to SUPER-FOCUS outputs, and subsequent conversion to CPP values were performed on [Pawsey Setonix](https://pawsey.org.au/systems/setonix/) linux high performance computers. Preparatory and intermediate steps, visualisation and data analysis were run on a local machine via [R code - main analyses](R-code-Part1-cpp_t2d-Main-analyses.R). We used the R [phyloseq](https://joey711.github.io/phyloseq/index.html) package for managing microbiome data. Supplementary R code analyses were performed for rarefying scenarios in the T2D datasets ([R code - rarefying analyses](R-code-Part2-cpp_t2d-Check-sequences-Rarefying-analyses-T2D-datasets.R)), and for preparation of additional preliminary validation datasets ([R code - supplementary dataset](R-code-Part3-cpp_t2d-Supplementary-data-analyses.R)). Bioinformatic steps run for each dataset are contained in folders in this repository. Note that folder/filepath structures used will need to be adjusted to run on other HPCs.  
+Metagenomics data were processed in several steps: (i) raw sequences were accessed/downloaded, (ii) QA/QC: sequences were inspected using FastQC and trimmed using Fastp, (iii) human genome sequences (GRCh38.p14/hg38) were removed from human gut datasets (in supplementary data, mouse genome sequences GRCm39 were removed from mouse gut datasets), (iv) functional profiles were derived using [SUPER-FOCUS](https://github.com/metageni/SUPER-FOCUS), then (v) functional relative abundances were converted to CPP values. Metagenomic data processing to SUPER-FOCUS outputs, and subsequent conversion to CPP values were performed on [Pawsey Setonix](https://pawsey.org.au/systems/setonix/) linux high performance computers. Preparatory and intermediate steps, visualisation and data analysis were run on a local machine via [R code - main analyses](R-code-Part1-cpp_t2d-Main-analyses.R). We used the R [phyloseq](https://joey711.github.io/phyloseq/index.html) package for managing microbiome data. Supplementary R code analyses were performed for rarefying scenarios in the T2D datasets ([R code - rarefying analyses](R-code-Part2-cpp_t2d-Check-sequences-Rarefying-analyses-T2D-datasets.R)), and for preparation of additional preliminary validation datasets ([R code - supplementary analyses](R-code-Part3-cpp_t2d-Supplementary-data-analyses.R)). Bioinformatic steps run for each dataset are contained in folders in this repository. Note that folder/filepath structures used will need to be adjusted to run on other HPCs.  
 
 **Software used**
 
