@@ -63,4 +63,4 @@ Metagenomics data were processed in several steps: (i) raw sequences were access
 
 **Software used**
 
-Software versions used were: Python (>= v3.8.5), sratoolkit (v3.2.1), MG-RAST-Tools (v3.6.1), FastQC (v0.12.1), Fastp (v0.23.2), Bowtie2 (v2.4.1), Diamond (v0.9.19), SUPER-FOCUS (v0.34), seqtk (v1.5), R (v4.2.2).
+Software versions used were: Python (>= v3.8.5), sratoolkit (v3.2.1), MG-RAST-Tools (v3.6.1), FastQC (v0.12.1), Fastp (v0.23.2), Bowtie2 (v2.4.1), Diamond (v0.9.19), SUPER-FOCUS (v0.34), seqtk (v1.5), R (HPC: 4.4.1, Local: v4.2.2).
