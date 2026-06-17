@@ -1,6 +1,6 @@
 ## Generic bioinformatic workflow steps
 
-# datasets will have this generic folder structure for the main bioinformatic steps
+# Datasets will have this generic folder structure for the main bioinformatic steps
 cd /path_to_dataset_folder
 mkdir -p 1_meta_raw
 mkdir -p 1_qc
@@ -32,7 +32,7 @@ paste read1_files.txt read2_files.txt > combined_reads.tsv
 
 # download to local machine, enhance in Excel to - combined_reads_<dataset>.tsv.txt
 # this file has columns: sample , R1_filenames , R2_filenames
-# Saved as tab-separated variable (tsv) text file format
+# saved as tab-separated variable (tsv) text file format
 
 ## 1b. Quality assessment - FastQC
 # navigate to folder
@@ -89,5 +89,6 @@ cd /path_to_dataset_folder/cpp_analysis
 sbatch Run_R_cpp3d_onPawsey_<dataset>.sh
 
 ## CPP data objects are then downloaded for further analysis using R script on the local machine
+## The R script on the local machine is used for preparing and analysing data alongside the HPC bioinformatic steps
 ## see cpp_t2d/R-code-Part1-cpp_t2d-Main-analyses.R
 
