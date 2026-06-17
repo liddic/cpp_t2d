@@ -13,6 +13,7 @@
 
 ├── ft2d_chn
 │   ├── 1_meta_raw
+│   ├── 1_qc
 │   ├── 2b_clean_hostremoval
 │   ├── 2_clean_fastp
 │   ├── 2c_rarefy_even_seq_10th
@@ -42,6 +43,7 @@
 
 ├── ft2d_swe
 │   ├── 1_meta_raw
+│   ├── 1_qc
 │   ├── 2b_clean_hostremoval
 │   ├── 2_clean_fastp
 │   ├── 2c_rarefy_even_seq_10th
