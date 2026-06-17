@@ -1,0 +1,93 @@
+## Generic bioinformatic workflow steps
+
+# datasets will have this generic folder structure for the main bioinformatic steps
+cd /path_to_dataset_folder
+mkdir -p 1_meta_raw
+mkdir -p 1_qc
+mkdir -p 2_clean_fastp
+mkdir -p 3_fxn_superfocus
+mkdir -p 3_fxn_superfocus_copy
+mkdir -p cpp_analysis/working
+
+#[ Optional for host-associated samples
+mkdir -p 2b_clean_hostremoval
+mkdir -p 4_compare_read_counts
+#]
+
+## Slurm batch scripts (calling python or R scripts), or bash scripts for each step 
+## are copied in respective folders of this github repository
+## The generic workflow is as follows:
+
+## 1. Download data (e.g., from NCBI SRA)
+# navigate to raw fastq folder
+cd /path_to_dataset_folder/1_meta_raw
+# run slurm script
+sbatch <dataset>_1_RunPython_get_sraruns.sh
+
+# make tabulated record of sequence files
+cd /path_to_dataset_folder/1_meta_raw
+find ./ -type f -name "*_pass_1.fastq.gz" -print | cut -c 3- | sort > read1_files.txt
+find ./ -type f -name "*_pass_2.fastq.gz" -print | cut -c 3- | sort > read2_files.txt
+paste read1_files.txt read2_files.txt > combined_reads.tsv
+
+# download to local machine, enhance in Excel to - combined_reads_<dataset>.tsv.txt
+# this file has columns: sample , R1_filenames , R2_filenames
+# Saved as tab-separated variable (tsv) text file format
+
+## 1b. Quality assessment - FastQC
+# navigate to folder
+cd /path_to_dataset_folder/1_qc
+# run slurm script
+sbatch <dataset>_1b_RunPython_fastqc_Pawsey.sh
+
+# inspect FastQC outputs to set the parameters of fastp quality trimming
+
+## 2. Quality trimming - fastp
+# navigate to folder
+cd /path_to_dataset_folder/2_clean_fastp
+# run slurm script
+sbatch <dataset>_2_RunPython_clean_fastp.sh
+
+#[ 2b. Optional steps for host-associated samples
+## Host sequence removal - bowtie2
+# navigate to folder
+cd /path_to_dataset_folder/2b_clean_hostremoval
+# run slurm script
+sbatch <dataset>_2b_RunPython_clean_hostremoval.sh
+
+## Compare read counts cleaned vs. host-removal
+# navigate to folder
+cd /path_to_dataset_folder/4_compare_read_counts
+# run slurm script
+sbatch <dataset>_4_read_counts_clean.sh
+sbatch <dataset>_4_read_counts_hostremoval.sh
+#]
+
+## 3. Functional profiling at community-scale - SUPER-FOCUS
+# navigate to folder
+cd /path_to_dataset_folder/3_fxn_superfocus
+# run slurm script
+sbatch <dataset>_3_RunPython_fxn_superfocus.sh
+
+## 3b. Copy SUPER-FOCUS output files only
+# navigate to folder
+cd /path_to_dataset_folder/3_fxn_superfocus_copy
+# run slurm script
+sbatch <dataset>_3b_copy_superfocus_results.sh
+
+# SUPER-FOCUS outputs are then download to the local machine
+# R script is used to translate this data into an R phyloseq object
+# which is then uploaded back to the HPC for conversion to the CPP data format
+
+## CPP analysis
+# navigate to folder
+cd /path_to_dataset_folder/cpp_analysis
+# copies of these look-up tables (see cpp_t2d/ancillary_files) are also required in the cpp_analysis folder:
+# 'compounds.lut.RDS', 'rxn_pathways.lut.RDS', 'rxns.lut.RDS', 'subsys.lut.RDS'
+
+# run slurm script
+sbatch Run_R_cpp3d_onPawsey_<dataset>.sh
+
+## CPP data objects are then downloaded for further analysis using R script on the local machine
+## see cpp_t2d/R-code-Part1-cpp_t2d-Main-analyses.R
+
